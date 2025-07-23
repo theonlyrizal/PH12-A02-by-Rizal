@@ -5,28 +5,40 @@
   --secondary-font: 'Noto Serif';
 }
 
+html {
+  scroll-behavior: smooth;
+  font-size: 24px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   transition: 0.3s ease;
   font-family: var(--primary-font);
-  font-size: 22px;
+  font-size: 1rem;
 }
 
 h1 {
   font-family: var(--secondary-font);
-  font-size: 65px;
+  font-size: 3.5rem;
+  font-weight: 700;
 }
 
 h2 {
   font-family: var(--secondary-font);
-  font-size: 50px;
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 
 h3 {
   font-family: var(--secondary-font);
-  font-size: 40px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.text-main {
+  color: var(--primary-color);
 }
 
 .father-div {
