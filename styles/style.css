@@ -21,6 +21,7 @@ html {
 
 p {
   font-size: 1.4rem;
+  margin: 1.5rem 0;
   color: var(--text-black-50);
   line-height: normal;
 }
@@ -54,7 +55,9 @@ h3,
   width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  background-color: #f5f8ff;
 }
 
 .test-border {
@@ -129,8 +132,6 @@ h3,
   justify-content: flex-start;
 }
 
-
-
 .banner-right {
   width: 50%;
   display: flex;
@@ -142,16 +143,55 @@ h3,
   height: auto;
 }
 
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .plants {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .plants-desc {
+  text-align: center;
 }
 
 .plants-cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  justify-content: space-between;
 }
 
 .plants-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plants-card img {
+  width: 100%;
+  margin: 10px;
+  height: auto;
+}
+.plants-card span {
+  margin: 5px;
+  font-size: 1.2rem;
+}
+
+.plants-card button {
+  width: 100%;
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 700;
+  padding: 1rem;
+  cursor: pointer;
 }
 
 .plant-lover {
@@ -193,6 +233,5 @@ h3,
 .footer-left {
 }
 
-.footer{
-  
+.footer {
 }
