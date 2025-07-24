@@ -1,13 +1,13 @@
 :root {
   --primary-color: #e95a08;
-  --text-50: rgba(0, 0, 0, 0.5);
+  --text-black-50: rgba(0, 0, 0, 0.5);
   --primary-font: 'Inter';
   --secondary-font: 'Noto Serif';
 }
 
 html {
   scroll-behavior: smooth;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 * {
@@ -19,25 +19,34 @@ html {
   font-size: 1rem;
 }
 
-h1 {
+p {
+  font-size: 1.4rem;
+  color: var(--text-black-50);
+  line-height: normal;
+}
+
+h1,
+.h1 {
   font-family: var(--secondary-font);
-  font-size: 3.5rem;
+  font-size: 4rem;
   font-weight: 700;
 }
 
-h2 {
+h2,
+.h2 {
   font-family: var(--secondary-font);
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 700;
 }
 
-h3 {
+h3,
+.h3 {
   font-family: var(--secondary-font);
   font-size: 2rem;
   font-weight: 700;
 }
 
-.text-main {
+.primary-color {
   color: var(--primary-color);
 }
 
@@ -53,37 +62,84 @@ h3 {
   border-radius: 10px;
 }
 
-.nav-bar {
+.mid-80 {
+  width: 80%;
 }
 
-.nav-left {
+.inline-child {
+  display: inline-flex;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+.nav-bar {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+
+.nav-left img {
+  width: 200px;
+  height: auto;
 }
 
 .nav-right {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-.nav-right-item-1 {
-}
-
-.nav-right-item-2 {
-}
-
-.nav-right-item-3 {
-}
-
+.nav-right-item-1,
+.nav-right-item-2,
+.nav-right-item-3,
 .nav-right-item-4 {
+  margin: 0 1.5rem;
+}
+
+.nav-right-item-2,
+.nav-right-item-3 {
+  color: var(--text-black-50);
+}
+
+.nav-right-item-4 img {
+  width: 30px;
+  height: auto;
+  margin-right: 0.5rem;
 }
 
 .each-section {
+  margin-top: 200px;
 }
 
 .banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .banner-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
+
+
 .banner-right {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.banner-right img {
+  width: 100%;
+  height: auto;
 }
 
 .plants {
@@ -137,4 +193,6 @@ h3 {
 .footer-left {
 }
 
-.footer-;
+.footer{
+  
+}

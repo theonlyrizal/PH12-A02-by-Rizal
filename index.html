@@ -26,24 +26,27 @@
   <body>
     <div class="father-div">
       <!-- Navbar and Banner -->
-      <header>
+      <header class="header mid-80">
         <!-- Navbar -->
         <nav class="nav-bar">
           <div class="nav-left">
             <a href="#home"><img src="./assets/logo.png" alt="" /></a>
           </div>
           <div class="nav-right">
-            Right Nav
-            <div class="nav-right-item-1"><a href="#home">Home</a></div>
+            <div class="nav-right-item-1 font-bold"><a href="#home"> Home</a></div>
             <div class="nav-right-item-2"><a href="#shop">Shop</a></div>
             <div class="nav-right-item-3"><a href="#about-us">About Us</a></div>
-            <div class="nav-right-item-4"><a href="#cart">Cart ($56)</a></div>
+            <div class="nav-right-item-4">
+              <a class="inline-child" href="#cart">
+                <img src="./assets/shopping-cart.png" alt="" />Cart ($56)</a
+              >
+            </div>
           </div>
         </nav>
         <!-- Banner -->
         <section class="each-section banner">
           <div class="banner-left">
-            <h1>ALWAYS FRESH FLOWERS</h1>
+            <h1>ALWAYS <span class="h1 primary-color">FRESH FLOWERS</span></h1>
             <p>
               Indulge your senses with the beauty and fragrance of our fresh flower shop. From
               classic roses to exotic blooms, we offer a wide variety of fresh flowers that are
@@ -55,9 +58,9 @@
           </div>
         </section>
       </header>
-      <main class="">
+      <main>
         <!-- Plants Section -->
-        <section class="each-section plants">
+        <section class="each-section plants mid-80">
           <div class="plants-desc">
             <h2>Our Plants</h2>
             <p>
@@ -170,6 +173,7 @@
         </section>
         <!-- Join Section -->
         <section class="each-section">
+          <h2>Join the colorful bunch</h2>
           <input type="text" placeholder="Write Email" />
           <input type="button" value="Join Now" />
         </section>
