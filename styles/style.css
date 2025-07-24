@@ -250,42 +250,43 @@ h3,
 
 .deals-cards {
   display: grid;
-  grid-template-columns: 1fr 1.5fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
-.bloom-plant {
+#bloom-plant {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('../assets/deal-bloom.png');
 }
 
-.ana-plant {
+#ana-plant {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('../assets/deal-ana.png');
 }
 
-.zabo-plant {
+#zabo-plant {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('../assets/deal-zabo.png');
+  grid-row: span 2;
+  grid-column: span 2;
 }
 
-.bloom-plant,
-.ana-plant,
-.zabo-plant {
+#bloom-plant,
+#ana-plant,
+#zabo-plant {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 5rem;
   color: #f5f8ff;
   background-size: cover;
   background-position: center;
   border-radius: 24px;
 }
 
-.bloom-plant h3,
-.ana-plant h3 {
+#bloom-plant h3,
+#ana-plant h3 {
   font-size: 1.5rem;
   font-weight: 700;
   margin: 1rem 0;
