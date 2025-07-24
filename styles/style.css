@@ -507,6 +507,34 @@ h3,
     }
   }
   .latest-deals {
+    margin-top: 12rem;
     padding: 0 1rem;
+  }
+  .latest-deals-desc {
+    width: 90%;
+  }
+
+  .deals-cards {
+    display: block;
+    margin-top: 3rem;
+  }
+
+  #bloom-plant,
+  #ana-plant,
+  #zabo-plant {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f5f8ff;
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+    padding: 16% 0;
+    margin-bottom: 1rem;
+  }
+
+  .join-form {
+    width: 90%;
   }
 }
