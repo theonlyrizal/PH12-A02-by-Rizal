@@ -479,6 +479,9 @@ h3,
   .plants-card button {
     font-size: 1.5rem;
     font-weight: 500;
+    &:hover {
+      background-color: var(--primary-color);
+    }
   }
 
   .plant-lover {
@@ -550,6 +553,9 @@ h3,
     padding: 1.3rem 0;
     border: none;
     cursor: pointer;
+    &:hover {
+      background-color: var(--primary-color);
+    }
   }
 
   .footer {
